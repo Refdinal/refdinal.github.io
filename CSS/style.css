@@ -1,0 +1,60 @@
+* {
+  font-family: "Heebo";
+}
+
+.bg-satu {
+  background-color: #6528f7;
+}
+.bg-dua {
+  background-color: #a076f9;
+}
+.bg-tiga {
+  background-color: #d7bbf5;
+}
+.bg-empat {
+  background-color: #ede4ff;
+}
+.navbar {
+  font-size: 20px;
+}
+
+.foto {
+  height: 243px !important;
+  width: 243px !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.navigasi {
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: inline-block;
+  background-color: #6528f7;
+  z-index: 10;
+}
+.heroes {
+  padding-top: 18vh;
+  padding-bottom: 18vh;
+}
+@media (max-width: 767.98px) {
+  .navbar {
+    background-color: #6528f7;
+  }
+  .deskripsi {
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .navigasi {
+    position: relative;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+  }
+  .heroes {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
